@@ -55,3 +55,5 @@ function useSoundfont({ AudioContext }: Settings): Adapted {
 
   return { loading, current, load, play, stop };
 }
+
+export { useSoundfont };
